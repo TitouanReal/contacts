@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+    <id>com.github.TitouanReal.Contacts</id>
+    <metadata_license>CC0-1.0</metadata_license>
+    <project_license>GPL-3.0-only</project_license>
+    <name>Contacts</name>
+    <summary>Manage your contacts</summary>
+    <description>
+        <p>A contact management application, built for the COSMIC™ Desktop.</p>
+    </description>
+    <!-- TODO: Add icon -->
+    <!-- <icon type="remote" width="64" height="64" scale="1">
+        https://github.com/TitouanReal/contacts/raw/main/resources/icons/hicolor/scalable/apps/com.github.TitouanReal.Contacts.svg
+    </icon> -->
+    <url type="homepage">https://github.com/TitouanReal/contacts</url>
+    <url type="bugtracker">https://github.com/TitouanReal/contacts/issues</url>
+    <url type="vcs-browser">https://github.com/TitouanReal/contacts</url>
+    <url type="translate">https://github.com/TitouanReal/contacts/tree/main/i18n</url>
+    <url type="contribute">https://github.com/TitouanReal/contacts</url>
+    <launchable type="desktop-id">com.github.TitouanReal.Contacts.desktop</launchable>
+    <provides>
+        <id>com.github.TitouanReal.Contacts</id>
+        <binary>cosmic-ext-contacts</binary>
+    </provides>
+    <requires>
+        <display_length compare="ge">360</display_length>
+    </requires>
+    <supports>
+        <control>keyboard</control>
+        <control>pointing</control>
+        <control>touch</control>
+    </supports>
+    <categories>
+        <category>COSMIC</category>
+    </categories>
+    <keywords>
+        <keyword>COSMIC</keyword>
+    </keywords>
+    <content_rating type="oars-1.1" />
+</component>

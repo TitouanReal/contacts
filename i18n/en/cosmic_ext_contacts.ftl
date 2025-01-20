@@ -1,0 +1,9 @@
+app-title = Contacts
+about = About
+contact-details = Contact Details
+emails = Emails
+phones = Phones
+view = View
+git-description = Git commit {$hash} on {$date}
+support = Support
+repository = Repository
